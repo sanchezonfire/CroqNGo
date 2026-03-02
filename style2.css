@@ -340,4 +340,45 @@ nav a:hover { background: #E6A670; }
     filter: none !important; 
     -webkit-filter: none !important;
     box-shadow: none !important;
+
+}
+
+@media (max-width: 768px) {
+    .canvas {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .polaroid, .sticker-maga, .spotify-frame, .banner-pide {
+        position: static !important;
+        transform: none !important;
+        margin: 20px auto;
+        width: 90% !important;
+        max-width: 350px;
+    }
+
+    .main-logo {
+        max-width: 90%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    .cart-icon {
+        top: 10px;
+        right: 10px;
+        transform: scale(0.8);
+    }
 }
