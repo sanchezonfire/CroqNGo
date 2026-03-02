@@ -381,4 +381,30 @@ nav a:hover { background: #E6A670; }
         right: 10px;
         transform: scale(0.8);
     }
+.frase-menu {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 10px 15px;
+    border: 2px solid #5F3D2E;
+    border-radius: 8px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 0.9rem;
+    color: #5F3D2E;
+    z-index: 999; 
+    box-shadow: 4px 4px 0px #E6A670;
+    pointer-events: none; 
 }
+
+@media (max-width: 768px) {
+    .frase-menu {
+        font-size: 0.7rem;
+        bottom: 10px;
+        right: 10px;
+        max-width: 150px;
+        text-align: right;
+    }
+}
+}
+
